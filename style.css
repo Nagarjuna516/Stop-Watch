@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 220, 146);
+}
+#myh1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#s{
+    color: red;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(246, 252, 225);
+    border: 5px solid;
+    border-radius: 30px;
+}
+#display{
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(54, 51, 52);
+}
+.btn{
+    margin-top: 15px;
+    padding: 8px 20px;
+    align-items: center;
+    background-color: rgb(23, 210, 23);
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#stop{
+    background-color: rgb(226, 73, 73);
+}
+#reset{
+    background-color: rgb(44, 163, 249);
+}
